@@ -1,0 +1,124 @@
+/*====GOOGLE FONTS ====*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
+
+/*==== COLOURS ====*/
+:root{ 
+    --text-color: #222222; 
+    --background-color: #F8F0ED;
+    --secondary-color: #D7DDCF; 
+
+}
+
+/*==== FONTS AND TYPOGRAPHY ====*/
+:root{
+    font-size: 18px;
+    font-weight: 400;
+    --title-font: 'Montserrat', sans-serif;
+    --body-font: 'Roboto', sans-serif;
+    --h1-size: 2.9rem;
+    --h2-size: 2.5rem;
+    --h3-size: 1.75rem;
+    --p-size: 1.25rem;
+    --normal-font-size: 1rem;
+    
+}
+
+.outdoors_area { 
+    position: relative; 
+    z-index: 1; 
+    min-height: 350px; 
+    margin-bottom: 120px;
+}
+
+.outdoors_parent { 
+    position: relative; 
+    background: #fff;
+    top: -10px; ;
+    min-height: 380px; 
+    border-radius: 10px; 
+    bottom: -120px; 
+    box-shadow: 0px 20px 80px 0px rgba(150, 141, 141, 0.3); 
+}
+.outdoors_title { 
+    position: relative; 
+    width: 100%; 
+    min-height: 380px; 
+    z-index:1; 
+    overflow:hidden; 
+    text-align: center;
+}
+
+.outdoors_content  h2{ 
+    font-family: var(--body-font); 
+    color: var(--text-color); 
+    
+    font-weight: 600; 
+    text-transform: uppercase; 
+
+}
+
+.outdoors_content p {
+    font-family: var(--body-font); 
+    color:var(--text-color); 
+}
+
+.typing { 
+    font-family: var(--body-font); 
+    white-space: nowrap;
+    margin: 0;
+    font-size: 20px; 
+    letter-spacing: 0.12em;
+}
+
+.cursor {
+    color:var(--background-color);
+}
+
+.outdoors-top-border { 
+    padding: 60px 0; 
+    border-top: 3px solid #fff; 
+    border-bottom: 60px; 
+}
+
+.outdoors-top-border h3 { 
+    font-family: var(--body-font); 
+    color: var(--text-color); 
+    text-transform:uppercase; 
+    font-weight: 600; 
+    margin-bottom: 20px; 
+}
+
+.description { 
+    font-family: var(--body-font); 
+    color: var(--text-color); 
+    margin-bottom: 0px; 
+}
+
+.gallery-image { 
+margin-top: 30px;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  height: 200px;
+  
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+
+  .contact_area {
+    min-width: 290px; 
+}
+
+.footer-text {
+    min-width: 290px; 
+    position: relative; 
+    
+    font-size: 20px; 
+    font-family: var(--body-font); 
+    font-weight: 300; 
+}
+
+
