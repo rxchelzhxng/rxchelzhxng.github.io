@@ -311,32 +311,20 @@ img{
     min-width:700px; 
          
     }
-    .home_menu_area .double-image {
-        position:relative; 
-        width: 100%; 
-        min-height: 700px; 
-        display: flex; 
-       
+    
+
+    @media (min-width:1000px) {
+        .text_content { 
+            vertical-align: middle;
+            align-self: center;
+            position:relative;
+            left: 70px; 
+            top:100px; 
+            padding: 20px; 
+            
+        }
     }
-
-  
-
-    .home_menu_area .double-image .image_content {
-        color: #fff;
-        vertical-align: middle;
-        align-self: center;
-        text-align: left; }
-
-    .home_menu_area .double-image .image_content .media .d-flex {
-        padding-right: 70px; }
-
-      .home_menu_area .double-image .image_content .media .media-body {
-        vertical-align: middle;
-        align-self: center;
-        position:relative;
-        left: -20px; 
-     }
-
+    
     
 
     .personal_content h1 {
@@ -348,6 +336,12 @@ img{
         white-space: nowrap; 
         text-align: left;  
         text-transform: uppercase; 
+    }
+
+    @media (min-width: 768px) {
+        .personal_content h1 { 
+            font-size:40px; 
+        }
     }
 
    .personal_content p {
@@ -366,7 +360,7 @@ img{
 
     } 
 
-    .home_menu_area .container .personal_content h3 {
+    .personal_content h3 {
         font-size: 16px; 
         position: relative; 
         top: -20px; 
@@ -377,6 +371,18 @@ img{
         text-align: left; 
         margin-bottom: 10px; 
         
+    }
+
+    @media (min-width: 768px) {
+        .personal_content h3 { 
+            font-size:12px; 
+        }
+    }
+
+    @media (min-width:1000px) {
+        .personal_content h3 {
+            font-size:14px; 
+        }
     }
 
     .typewriter {
@@ -636,12 +642,11 @@ img{
     min-width:700px; 
 }
 
-.contact_area .container.text-center { 
+/*.contact_area .container.text-center { 
     width: 1600px; 
-    
     margin: 0; 
     padding: 0px 10px; 
-}
+}*/
 
 h2.contact-title {
     text-align: center; 
@@ -697,16 +702,15 @@ p.contact-message {
 
 .footer { 
     background-color:var(--background-color); 
-
 }
 
 .footer-text { 
-    min-width: 290px; 
-    margin-bottom: 35px; 
+    min-width: 700px; 
+    padding: 20px; 
     font-size: 20px; 
     font-family: var(--body-font); 
     font-weight: 300; 
-    height: 100px; 
-    
+    position:relative; 
 }
+
 
