@@ -714,7 +714,7 @@ p.contact-message {
     position:relative;   
 }
 
-@media (min-width:375px) {
+@media (max-width:375px) {
     .footer-text { 
         left:170px; 
         font-size: 20px; 
