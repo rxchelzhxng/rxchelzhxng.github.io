@@ -645,8 +645,7 @@ img{
 /*.contact_area .container.text-center { 
     width: 1600px; 
     margin: 0; 
-    padding: 0px 10px; 
-}*/
+    padding: 0px 10px; }*/
 
 h2.contact-title {
     text-align: center; 
@@ -705,12 +704,23 @@ p.contact-message {
 }
 
 .footer-text { 
-    min-width: 700px; 
-    padding: 20px; 
+    align-items: center;
+    justify-content: center;
+    text-align:center; 
+    height: 100px; 
     font-size: 20px; 
     font-family: var(--body-font); 
     font-weight: 300; 
-    position:relative; 
+    position:relative;   
 }
 
+@media (min-width:375px) {
+    .footer-text { 
+        left:170px; 
+        font-size: 20px; 
+    font-family: var(--body-font); 
+    font-weight: 300; 
+    position:relative;   
+    }
+}
 
