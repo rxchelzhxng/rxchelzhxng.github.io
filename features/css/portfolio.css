@@ -185,3 +185,7 @@
     font-family: var(--body-font); 
     font-weight: 300; 
 }
+
+.description .paper-link {
+    color:inherit; 
+}
